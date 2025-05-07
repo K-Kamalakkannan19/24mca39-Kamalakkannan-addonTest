@@ -4,12 +4,12 @@ public class DiamondPatten {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter an odd number: ");
+        System.out.print("Enter odd number: ");
         int n = scanner.nextInt();
         scanner.close();
 
         if (n % 2 == 0) {
-            System.out.println("Please enter an odd number.");
+            System.out.println("enter odd number.");
             return;
         }
 
