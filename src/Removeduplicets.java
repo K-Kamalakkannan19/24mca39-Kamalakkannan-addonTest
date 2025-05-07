@@ -4,7 +4,7 @@ public class Removeduplicets {
 	public static void main(String[] args) {
 		String input = "Java Programming";
 		String result =removeDuplicates(input);
-		System.out.println("After removing the duplicets(Java programming):"+ result);
+		System.out.println("After removing duplicets(Java programming):"+ result);
 		
 	}
 	private static String removeDuplicates(String str) {
